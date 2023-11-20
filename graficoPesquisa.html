@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Acessibilidade na Web</title>
+</head>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, footer {
+    margin: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 17px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(138, 94, 29);
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; 
+    text-shadow: 1px 1px 1px rgb(138, 94, 29); 
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #eee;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+
+p {
+    color: #555;
+}
+p {
+    color: #555;
+    font-size: 18px; 
+    text-shadow: 1px 1px 1px #eee; 
+}
+
+header h1 {
+    text-align: center;
+}
+
+.header-bar {
+    padding: 5px;
+    background-color: rgb(122, 83, 25);
+    color: white;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    width: 35%;
+}
+.image-container {
+    text-align: center;
+
+}
+.text-container {
+    width: 50%;
+    margin: 0 auto;
+    
+}
+#link {
+    text-align: center;
+}
+html {
+    scroll-behavior: smooth;
+}
+</style>
+<body>
+    <header header class="header-bar">
+        <h1>Bem-vindo à Acessibilidade na Web</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" tabindex="0">Início</a></li>
+            <li><a href="acessibilidade.html">Acessibilidade na Web</a></li>
+            <li><a href="barreiras.html">Barreiras enfrentadas por pessoas com deficiência</a></li>
+            <li><a href="tecnologia_assistiva.html">Tecnologia Assistiva</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="intro">
+            <div class="image-container"></div>
+            <h2>Gráfico mostra o nível de instrução de pessoas com e sem deficiência de 18 anos ou mais</h2>
+            </div></br>
+            <div class="text-container">
+            <h3>Pessoas com deficiência </h3></br>
+            <p>Sem instrução e fundamental incompleto são ao todo 67,6%</p>
+            <p>Fundamental incompleto e médio incompleto 10,8%</p>
+            <p>Ensino médio completo e superior incompleto 16,6%</p>
+            <p>Superior completo 5%</p></br>
+
+            <h3>Pessoas com deficiência </h3></br>
+            <p>Sem instrução e fundamental incompleto são ao todo 30,9%</p>
+            <p>Fundamental incompleto e médio incompleto 14,9%</p>
+            <p>Ensino médio completo e superior incompleto 37,2%</p>
+            <p>Superior completo 17%</p>
+
+            <p id="link">
+                <a href="barreiras.html">Volte para a leitura do texto: Busca por Inclusão </a>
+            </p>
+        </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Acessibilidade na Web</p>
+    </footer>
+</body>
+</html>

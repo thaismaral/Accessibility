@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Acessibilidade na Web</title>
+</head>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, footer {
+    margin: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 17px;
+    display: flex;
+    justify-content: space-around;
+    background-color:  rgb(77, 9, 91);
+    color: white;
+}
+ul{
+    line-height: 1.8;
+}
+nav a {
+    text-decoration: none;
+    color: #fff; 
+    text-shadow: 1px 1px 1px rgb(72, 9, 85); 
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #eee;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    color: #555;
+    text-align: center;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.header-bar {
+    padding: 5px;
+    background-color: rgb(63, 8, 74);
+    color: white;
+}
+
+</style>
+<body>
+    <header header class="header-bar">
+        <h1>Bem-vindo à Acessibilidade na Web</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" tabindex="0">Início</a></li>
+            <li><a href="acessibilidade.html">Acessibilidade na Web</a></li>
+            <li><a href="barreiras.html">Barreiras enfrentadas por pessoas com deficiência</a></li>
+            <li><a href="tecnologia_assistiva.html">Tecnologia Assistiva</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="sobre o site">
+            <h2>O que é esse site?</h2>
+            <p>Esse site é um trabalho do segundo período de Sistemas de Informação da matéria Web Delopment: Front-End sobre acessibilidade, feito por Thais Amaral.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Acessibilidade na Web</p>
+    </footer>
+</body>
+</html>

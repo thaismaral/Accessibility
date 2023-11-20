@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Acessibilidade na Web</title>
+</head>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, footer {
+    margin: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 17px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(18, 129, 48);
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgb(21, 130, 50);
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #eee;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+ul{
+    line-height: 1.8;
+}
+h4{
+    line-height: 1.6;
+}
+p {
+    color: #555;
+    font-size: 18px; 
+    text-shadow: 1px 1px 1px #eee; 
+}
+
+header h1 {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.header-bar {
+    padding: 5px;
+    background-color: rgb(14, 96, 36);
+    color: white;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.summary {
+    width: 20%; 
+    margin-right: 20px; 
+}
+
+.text-container {
+    width: 60%; 
+    margin: 0 auto;
+}
+
+</style>
+<body>
+    <header header class="header-bar">
+        <h1>Bem-vindo à Acessibilidade na Web</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" tabindex="0">Início</a></li>
+            <li><a href="acessibilidade.html">Acessibilidade na Web</a></li>
+            <li><a href="barreiras.html">Barreiras enfrentadas por pessoas com deficiência</a></li>
+            <li><a href="tecnologia_assistiva.html">Tecnologia Assistiva</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Fazendo a Internet Para Todos</h2>
+            <div class="image-container">
+                <div class="summary">
+                    <ul>    
+                        <a>SUMÁRIO</a>
+                        <li><a href="#por-que-importa">Por Que Isso Importa</a></li>
+                        <li><a href="#desafios-enfrentados">Desafios Enfrentados</a></li>
+                        <li><a href="#como-fazer-web-mais-inclusiva">Como Fazer a Web Mais Inclusiva</a></li>
+                        <li><a href="#beneficios-para-todos">Benefícios para Todos</a></li>
+                        <li><a href="#leis-e-acessibilidade">Leis e Acessibilidade</a></li>
+                    </ul>
+                </div>
+                <img src="/imagens/website-access.png" alt="">
+            </div>
+            <div class="text-container">
+            <h3>Hoje em dia, usamos a internet para quase tudo, mas nem todo mundo pode aproveitar as facilidades online da mesma forma. A acessibilidade na web é um jeito importante de garantir que todos, independente de suas habilidades, consigam usar e entender o que está na internet. Vamos falar sobre por que isso é tão importante, os desafios que enfrentamos e como podemos fazer a web ser mais inclusiva para todos.</h3>
+            
+            <h4 id="por-que-importa">Por Que Isso Importa</h4>        
+            <p>Não é só uma questão de ser legal ou ético - é um direito básico. Como a internet é usada para trabalho, estudo e diversão, é essencial que todos consigam participar desse mundo digital. A acessibilidade não só ajuda pessoas com deficiências, mas também quem é mais velho, quem tem uma conexão de internet mais lenta ou quem usa diferentes dispositivos.</p>
+            
+            <h4 id="desafios-enfrentados">Desafios Enfrentados:</h4> 
+            <p>Apesar de mais pessoas estarem sabendo sobre a acessibilidade, ainda temos desafios. Muitos sites e aplicativos não seguem regras e diretrizes que foram criadas para garantir a acessibilidade. A tecnologia também muda rápido, e isso pode ser difícil para os criadores de sites e apps se manterem atualizados. Às vezes tambem falta entender as necessidades de diferentes grupos de usuários.</p>
+            
+            <h4 id="como-fazer-web-mais-inclusiva">Como Fazer a Web Mais Inclusiva:</h4> 
+            <p>Para fazer a web ser um lugar onde todos possam estar, precisamos adotar práticas que ajudem diferentes pessoas. Algumas dessas práticas incluem:</p>
+            <p>Design que se Adapta: Criar sites que funcionem bem em diferentes tamanhos de tela e dispositivos.</p>
+            <p>Descrições para Imagens: Contar o que tem em uma imagem para quem não pode vê-la.</p>
+            <p>Texto Fácil de Ler: Garantir que o texto seja fácil de ler, com contraste bom entre o texto e o fundo.</p>
+            <p>Legendas em Vídeos: Colocar legendas em vídeos para quem não pode ouvir.</p>
+            <p>Navegação Fácil: Fazer o site ser fácil de usar e entender.</p>
+            <p>Funcionar com Ajudas Tecnológicas: Garantir que o site funcione bem com tecnologias que ajudam as pessoas.</p>
+            
+            <h4 id="beneficios-para-todos">Benefícios para Todos:</h4> 
+            <p>Quando fazemos a web mais acessível, todo mundo se beneficia. Um site fácil de usar e entender é bom para todos. Pensar nas diferentes necessidades das pessoas desde o começo também ajuda a criar coisas melhores e mais inovadoras.</p>
+
+            <h4 id="leis-e-acessibilidade">Leis e Acessibilidade:</h4> 
+            <p>Em alguns lugares, já existem leis que pedem que sites do governo e serviços essenciais sigam regras de acessibilidade. Mas não devemos fazer isso só porque é a lei; devemos fazer porque é a coisa certa a se fazer para que todos possam ter acesso à informação.</p>
+
+            <p>Tornar a web acessível é uma questão de direitos, igualdade e inclusão. À medida que usamos cada vez mais a internet, é importante fazer dela um lugar onde todos possam estar, independentemente de suas habilidades. Criadores, empresas e usuários têm um papel importante nisso. Vamos fazer a web ser um lugar acessível para todos!</p>
+
+            </div>
+        </section>
+    
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Acessibilidade na Web</p>
+    </footer>
+</body>
+</html>
