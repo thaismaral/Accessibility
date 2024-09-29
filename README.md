@@ -1,0 +1,3 @@
+This repository contains the implementation of an accessible website, developed based on web accessibility concepts presented in the study modules of the Web Development: Front-End course from the second semester of the Information Systems program. The main goal of this project is to apply accessibility principles to a website, ensuring that the content is accessible to all users, regardless of their physical or cognitive abilities.
+
+The objective of the project is to gain practical experience in developing accessible websites, using guidelines based on the eMAG documents (Electronic Government Accessibility Model) to create web pages that can be accessed by everyone.
